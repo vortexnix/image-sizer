@@ -1,6 +1,6 @@
 ## Introduction
 
-sizer_image.py code resizes the imageis as per user input and and organizes them in separate folders. Features include: 
+sizer_image.py code resizes the images as per user input and and organizes them in separate folders. Features include: 
 - User can add as many category folders as needed (minimum 1 folder at least)
 - The script will automatically create the desired folders namely images1x, images2x etc if they don't exist. 
 - Script also displays new and original dimensions
@@ -12,9 +12,13 @@ Code is written in python3. The only dependency is external imaging library pill
 ## Installation on MacOS
 
 1. Install python3 and pillow:
+	
 	$ brew update
+	
 	$ brew install python3
+	
 	$ brew install libtiff libjpeg webp little-cms2
+	
 	$ pip3 install pillow
 
 ## Usage
